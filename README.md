@@ -84,22 +84,6 @@ python pdf_to_markdown.py --info
 - `--info`: Show conversion setup information
 - `--verbose, -v`: Enable verbose logging
 
-### Python API
-
-```python
-from pdf_to_markdown import PDFToMarkdownConverter
-
-# Basic conversion
-converter = PDFToMarkdownConverter(use_llm=False, use_gpu=True)
-success = converter.convert_single_pdf("input.pdf", "output.md")
-
-# LLM-enhanced conversion
-converter = PDFToMarkdownConverter(use_llm=True, use_gpu=True)
-success = converter.convert_single_pdf("input.pdf", "output.md")
-
-# Batch conversion
-results = converter.convert_batch("input_dir/", "output_dir/")
-```
 
 ## Project Structure
 
@@ -136,19 +120,6 @@ The script automatically detects CUDA availability. To disable GPU acceleration:
 
 ```bash
 python pdf_to_markdown.py input.pdf --no-gpu
-```
-
-## Examples
-
-See `example_usage.py` for detailed examples of:
-- Basic single PDF conversion
-- LLM-enhanced conversion
-- Batch processing
-- Getting setup information
-
-Run examples:
-```bash
-python example_usage.py
 ```
 
 ## Logging
