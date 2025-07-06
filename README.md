@@ -55,13 +55,11 @@ A powerful Python script that converts PDF files to Markdown format using the Ma
 #### Basic single PDF conversion:
 ```bash
 python pdf_to_markdown.py input/document.pdf -o output/document.md
-python pdf_to_markdown.py input/Terence_Mckenna_True_Hallucinations.pdf -o output/Terence_Mckenna_True_Hallucinations.md # example
 ```
 
 #### LLM-enhanced conversion:
 ```bash
 python pdf_to_markdown.py input/document.pdf --use-llm -o output/document.md
-python pdf_to_markdown.py input/Terence_Mckenna_True_Hallucinations.pdf --use-llm -o output/Terence_Mckenna_True_Hallucinations.md # example
 ```
 
 #### Batch processing:
