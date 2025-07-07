@@ -6,7 +6,7 @@ A powerful Python script that converts PDF files to Markdown format using the Ma
 
 - **High-accuracy PDF conversion** using Marker
 - **GPU acceleration** with CUDA support
-- **LLM enhancement** via Marker's native Ollama integration for improved formatting and OCR error correction
+- **LLM enhancement** via Marker's native Ollama integration but no need to use it found yet
 - **Single file and batch processing**
 - **Comprehensive logging** and error handling
 - **Configurable output formats**
